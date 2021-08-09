@@ -1,6 +1,3 @@
-#HCL - Hashicorp Configuration Language
-# Linguagem declarativa
-
 resource "aws_s3_bucket" "dl" {
   bucket = "datalake-psalomao-igti-tf"
   acl    = "private"
